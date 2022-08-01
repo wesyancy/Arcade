@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+body {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+a:link, a:visited, a:hover,a:active { 
+    text-decoration: none;
+}
+
+
+
+/* HEADER PANE */
+
+header,
+footer {
+    flex: none;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: 71px;
+    background: #eee;
+}
+main {
+    margin-top: 71px;
+    display: flex;
+    flex: 1 0 auto;
+}
+.sub-nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+.search-form {
+    display: flex;
+    flex-grow: 1;
+}
+.search-form input {
+    padding: 0.25rem 0.25rem;
+    flex: 1;
+    border-bottom: 1px solid rgb(16, 97, 0);
+}
+.search-form button {
+    background: rgb(16, 97, 0);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    font-size: 20px;
+}
+.company-name {
+    font-size: 34px;
+    color: rgb(16, 97, 0);
+    min-width: 2rem;
+    margin: 0 1rem;
+    text-align: center;
+}
+.company-name a {
+    color: inherit;
+}
+.company-name:hover {
+    color: rgb(8, 47, 0);
+    transform: scale(1.1);
+}
+.credit-offer {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background: red;
+    padding: 0.25rem 0.25rem;
+    margin: 1 1rem;
+}
+
+
+
+
+
+/* LEFT NAV PANE */
+
+.categories {
+    display: flex;
+    flex: 0 1 256px;
+    flex-direction: column;
+}
+.categories a {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    background: rgb(16, 97, 0);
+    color: white;
+    padding: .5rem;
+    margin: 0 .5rem .5rem;
+}
+.categories a:hover {
+    background: rgb(8, 47, 0);
+    box-shadow: 0 2px 5px -2px black;
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* ITEM BLOCKS */
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    flex-grow: 1;
+    padding: 1rem;
+}
+p {
+    text-align: center;
+    color: black;
+}
+.item {
+    flex: 1 0 1rem;
+    margin: 0 10px 10px 0;
+    max-width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    box-shadow: 0 3px 3px -2px black;
+}
+.item a {
+    text-align: center;
+}
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px -2px black;
+}
+.item-name,
+.fact-line {
+    background: rgb(16, 97, 0);
+    color: white;
+}
+.item-image {
+    width: 275px;
+    height: 275px;
+}
+.item-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 26px;
+    color: white;
+}
+.add-item {
+    background: rgb(8, 47, 0);
+    color: white;
+    border-radius: 50%;
+}
+.fact-line {
+    padding: 1rem;
+    font-size: 20px;
+}
+.item-description {
+    padding: 1rem;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+/* FOOTER CSS */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 27, 0);
+    padding: 1rem;
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+footer section {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+footer section:last-child {
+    margin-right: 0;
+}
+footer h2 {
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25em;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}

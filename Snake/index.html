@@ -25,15 +25,7 @@
         </nav>
     </header>
 
-    <head>
-        <h1>Snake</h1>
-        
-        <button class="grab" id="start-game">START</button><br>
-
-        <button class="grab" id="reset">RESET GAMEBOARD</button>
-        
-        <h2 id="score">SCORE: 0</h2><br>
-    </head>
+    <h1>Snake</h1>
 
     <main id="board">
         <div class="cell" data-coordinates="0,0"></div>
@@ -193,11 +185,21 @@
         <div class="cell" data-coordinates="11,11"></div>
     </main>
 
-    <div id="controls">
-        <button class="grab" id="left">LEFT</button>
-        <button class="grab" id="up">UP</button>
-        <button class="grab" id="right">RIGHT</button>
-        <button class="grab" id="down">DOWN</button>
+    <h2 id="score">SCORE: 0</h2><br>
+
+    <div id="controlBoard">   
+        <div class="buttons" id="gameHead">
+            <button class="grab" id="start-game">START</button><br>
+
+            <button class="grab" id="reset">CLEAN GAMEBOARD<br>(click until board is clear)</button>
+        </div>
+
+        <div class="buttons" id="controls">
+            <button class="grab" id="left">LEFT</button>
+            <button class="grab" id="up">UP</button>
+            <button class="grab" id="right">RIGHT</button>
+            <button class="grab" id="down">DOWN</button>
+        </div>
     </div>
 
 </body>

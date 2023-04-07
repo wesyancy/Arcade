@@ -56,11 +56,11 @@ header {
 .search-form input {
     padding: 0.25rem 0.25rem;
     flex: 1;
-    border-bottom: 1px solid rgb(16, 97, 0);
+    border-bottom: 1px solid rgb(205, 133, 63);
     font-family: 'Mouse Memoirs', 'Mochiy Pop One';
 }
 .search-form button {
-    background: rgb(16, 97, 0);
+    background: rgb(205, 133, 63);
     color: white;
     padding: 0.5rem 0.5rem;
     border: none;
@@ -69,7 +69,7 @@ header {
 }
 .company-name {
     font-size: 34px;
-    color: rgb(16, 97, 0);
+    color: rgb(205, 133, 63);
     min-width: 2rem;
     margin: 0 1rem;
     text-align: center;
@@ -78,7 +78,7 @@ header {
     color: inherit;
 }
 .company-name:hover {
-    color: rgb(8, 47, 0);
+    color: rgb(139, 69, 19);
     transform: scale(1.1);
 }
 .credit-offer {

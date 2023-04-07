@@ -67,7 +67,7 @@ main {
     color: inherit;
 }
 .company-name:hover {
-    color: rgb(8, 47, 0);
+    color: rgb(139, 69, 19);
     transform: scale(1.1);
 }
 .credit-offer {
@@ -102,7 +102,7 @@ main {
     margin: 0 .5rem .5rem;
 }
 .categories a:hover {
-    background: rgb(8, 47, 0);
+    background: rgb(139, 69, 19);
     box-shadow: 0 2px 5px -2px black;
     transform: scale(1.1);
 }
@@ -159,7 +159,7 @@ p {
     color: white;
 }
 .add-item {
-    background: rgb(8, 47, 0);
+    background: rgb(139, 69, 19);
     color: white;
     border-radius: 50%;
 }
